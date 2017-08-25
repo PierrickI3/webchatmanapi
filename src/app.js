@@ -53,7 +53,7 @@ devConfig.realtimeOptions = {
 /*
 import fs from 'fs'
 function getRealtimeScript() {
-    request(`https://realtime.${devConfig.baseURL}:443`).pipe(fs.createWriteStream('./src/realtime.js'))
+    request(`https://realtime.${devConfig.baseURL}:443`).pipe(fs.createWriteStream('./src/realtime.full.js'))
 }
 getRealtimeScript()
 */
